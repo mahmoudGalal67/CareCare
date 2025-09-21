@@ -14,7 +14,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="ar" dir="rtl">
       <body className={`${cairo.variable}  font-sans`}>
         <div className="lg:max-w-[1140px] mx-auto bg-[#191919]">{children}</div>
       </body>

@@ -44,3 +44,13 @@ h1 {
 .services .card:hover .hover_elm {
   left: 0;
 }
+
+.btn-box {
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+}
+.btn-box:hover {
+  transform: scale(1.05);
+}
+
+/* services */
