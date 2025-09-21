@@ -54,3 +54,33 @@ h1 {
 }
 
 /* services */
+
+/* whyChoose */
+
+.whyChoose .card {
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  transition: transform 0.4s ease;
+  border-radius: 20px;
+}
+
+.whyChoose .card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(7, 32, 27, 0.6);
+  transition: background 0.4s ease;
+  border-radius: 20px;
+}
+.whyChoose .card:hover:before {
+  background: rgba(7, 32, 27, 0.92);
+}
+.whyChoose .card:hover {
+  transform: scale(1.03);
+}
+
+/* whyChoose */

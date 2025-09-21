@@ -39,8 +39,8 @@ function Services() {
           </div>
         ))}
       </div>
-      <div class="action-box style3">
-        <div class="flex justify-center items-center gap-[25px] flex-wrap my-[30px]">
+      <div className="action-box style3">
+        <div className="flex justify-center items-center gap-[25px] flex-wrap my-[30px]">
           <a
             href="tel:0549956052"
             className="btn-box bg-[#022f6c] w-[180px] h-[60px] flex justify-center items-center gap-[12px] text-white font-bold text-[18px] rounded-[30px]"
