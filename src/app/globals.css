@@ -1,26 +1,46 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: #191919;
+  font-family: var(--font-cairo), sans-serif;
+}
+
+@theme {
+  --color-main: #07201b;
+}
+
+.swiper-button-next svg,
+.swiper-button-prev svg {
+  color: white;
+  width: 30px !important;
+  height: 30px !important;
+  border-radius: 50%;
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  font-size: 12px; /* arrow size */
+}
+
+h1 {
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 55px;
+  color: #ffffff;
+}
+
+/* services */
+
+.services .card {
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+.services .card .hover_elm {
+  transition: all 0.3s ease;
+}
+.services .card:hover {
+  transform: translateY(-12px);
+}
+.services .card:hover .hover_elm {
+  left: 0;
 }
