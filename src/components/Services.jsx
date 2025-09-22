@@ -25,7 +25,7 @@ function Services() {
       <div className=" bg-main border-[3px] border-[#FFFFFFB8] rounded-[8px] text-center mx-[8]">
         <h1>خدمات جونسون لحماية السيارات</h1>
       </div>
-      <div className="wrapper grid grid-cols-3 gap-8 mt-[28px]">
+      <div className="wrapper grid lg:grid-cols-3 grid-cols-1 gap-8 mt-[28px]">
         {servicesItems.map((item, i) => (
           <div className="card rounded-[12px] overflow-hidden relative" key={i}>
             <div className="relative aspect-[1.27]">
@@ -43,7 +43,7 @@ function Services() {
         <div className="flex justify-center items-center gap-[25px] flex-wrap my-[30px]">
           <a
             href="tel:0549956052"
-            className="btn-box bg-[#022f6c] w-[180px] h-[60px] flex justify-center items-center gap-[12px] text-white font-bold text-[18px] rounded-[30px]"
+            className="btn-box bg-[#022f6c] md:w-[180px] w-[140px] h-[60px] flex justify-center items-center md:gap-[12px] gap-[8px] text-white font-bold lg:text-[18px] text-[15px]  rounded-[30px]"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -58,7 +58,7 @@ function Services() {
           </a>
           <a
             href="https://api.whatsapp.com/send/?phone=%2B966549956052&amp;text=%D8%B9%D8%B1%D9%88%D8%B6%20%D8%AC%D9%88%D9%86%D8%B3%D9%88%D9%86%20%D9%84%D9%84%D9%8A%D9%88%D9%85%20%D8%A7%D9%84%D9%88%D8%B7%D9%86%D9%8A&amp;type=phone_number&amp;app_absent=0"
-            className="btn-box bg-[#25d366] w-[180px] h-[60px] flex justify-center items-center gap-[12px] text-white font-bold text-[18px] rounded-[30px]"
+            className="btn-box bg-[#25d366] md:w-[180px] w-[140px] h-[60px] flex justify-center items-center md:gap-[12px] gap-[8px] text-white font-bold lg:text-[18px] text-[15px] rounded-[30px]"
             target="_blank"
           >
             <svg
