@@ -1,7 +1,8 @@
+import Brands from "@/components/Brands";
+import Feature1 from "@/components/Feature1";
 import Hero from "@/components/Hero";
 import Services from "@/components/Services";
 import WhyToChoose from "@/components/WhyToChoose";
-import Image from "next/image";
 
 export default function Home() {
   return (
@@ -9,6 +10,8 @@ export default function Home() {
       <Hero />
       <Services />
       <WhyToChoose />
+      <Brands />
+      <Feature1 />
     </div>
   );
 }
