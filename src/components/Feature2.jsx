@@ -4,8 +4,8 @@ import React from "react";
 function Feature2() {
   return (
     <div className="feature">
-      <div className="wrapper overflow-hidden relative flex items-center gap-8 p-[32px] border-[3px] border-white my-[30px] bg-[#191919] rounded-[20px] ">
-        <div className="right flex-1 text-white relative z-[10]">
+      <div className="wrapper overflow-hidden relative flex lg:flex-row flex-col-reverse items-center gap-8 p-[32px] border-[3px] border-white my-[30px] bg-[#191919] rounded-[20px] ">
+        <div className="right lg:flex-1 text-white relative z-[10]">
           <h3 className="text-[25px] font-bold mb-[30px] leading-[1.5]">
             {" "}
             لا تترك سيارتك عرضة للخدوش واحميها من{" "}
@@ -34,7 +34,7 @@ function Feature2() {
             </li>
           </ul>
         </div>
-        <div className="left flex-1 relative h-[330px] z-[10]">
+        <div className="left lg:flex-1 relative lg:h-[330px] h-[200px] w-full z-[10]">
           <Image
             src="/feature2.webp"
             className="rounded-[12px]"

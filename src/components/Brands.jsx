@@ -19,10 +19,18 @@ function Brands() {
           {" "}
           معتمد من
         </h3>
-        <Swiper slidesPerView={5} spaceBetween={50}>
+        <Swiper
+          spaceBetween={50}
+          breakpoints={{
+            320: { slidesPerView: 2, spaceBetween: 5 }, // mobile
+            640: { slidesPerView: 2, spaceBetween: 15 }, // sm
+            768: { slidesPerView: 4, spaceBetween: 20 }, // md
+            1024: { slidesPerView: 5, spaceBetween: 20 }, // lg
+          }}
+        >
           {brands.map((item, i) => (
             <SwiperSlide key={i}>
-              <div className="w-[200px] h-[100px] flex items-center justify-center">
+              <div className="md:w-[200px] w-[120px] h-[100px] flex items-center justify-center">
                 <img
                   src={`/brands/${item}`}
                   alt="brand image"

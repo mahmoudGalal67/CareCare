@@ -27,7 +27,7 @@ function Counter() {
         {counters.map((item, i) => (
           <div
             key={i}
-            className="item p-[30px] bg-white flex-1 rounded-[15px] flex flex-col items-center justify-center gap-3
+            className="item p-[30px] min-w-[280px] bg-white flex-1 rounded-[15px] flex flex-col items-center justify-center gap-3
             transform transition duration-500 ease-in-out hover:-translate-y-5
             "
           >

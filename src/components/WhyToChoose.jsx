@@ -40,7 +40,7 @@ function WhyToChoose() {
         حتى 10 سنوات. نقدم باستمرار أعلى مستويات الجودة والدقة في تنفيذ خدماتنا
         بالتركيز علي أدق التفاصيل.
       </p>
-      <div className="wrapper grid grid-cols-2 gap-5  my-12">
+      <div className="wrapper grid lg:grid-cols-2 grid-cols-1 gap-5  my-12">
         {features.map((item, i) => (
           <div
             className="card relative"
@@ -67,7 +67,7 @@ function WhyToChoose() {
         <div className="flex justify-center items-center gap-[25px] flex-wrap my-[30px]">
           <a
             href="tel:0549956052"
-            className="btn-box bg-[#022f6c] w-[180px] h-[60px] flex justify-center items-center gap-[12px] text-white font-bold text-[18px] rounded-[30px]"
+            className="btn-box bg-[#022f6c] md:w-[180px] w-[140px] h-[60px] flex justify-center items-center md:gap-[12px] gap-[8px] text-white font-bold lg:text-[18px] text-[15px]  rounded-[30px]"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -82,7 +82,7 @@ function WhyToChoose() {
           </a>
           <a
             href="https://api.whatsapp.com/send/?phone=%2B966549956052&amp;text=%D8%B9%D8%B1%D9%88%D8%B6%20%D8%AC%D9%88%D9%86%D8%B3%D9%88%D9%86%20%D9%84%D9%84%D9%8A%D9%88%D9%85%20%D8%A7%D9%84%D9%88%D8%B7%D9%86%D9%8A&amp;type=phone_number&amp;app_absent=0"
-            className="btn-box bg-[#25d366] w-[180px] h-[60px] flex justify-center items-center gap-[12px] text-white font-bold text-[18px] rounded-[30px]"
+            className="btn-box bg-[#25d366] md:w-[180px] w-[140px] h-[60px] flex justify-center items-center md:gap-[12px] gap-[8px] text-white font-bold lg:text-[18px] text-[15px] rounded-[30px]"
             target="_blank"
           >
             <svg
