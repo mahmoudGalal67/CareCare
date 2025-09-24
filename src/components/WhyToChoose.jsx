@@ -32,10 +32,10 @@ function WhyToChoose() {
   return (
     <div className="whyChoose">
       <div className=" bg-main border-[3px] border-border rounded-[8px] text-center mx-[8] my-[5]">
-        <h1>خدمات جونسون لحماية السيارات</h1>
+        <h1>خدمات CARZILL لحماية السيارات</h1>
       </div>
       <p className="text-[18px] font-bold leading-[40px] text-white text-justify mt-5">
-        الوكيل المعتمد لشركة جونسون الأمريكية في المملكة العربية السعودية
+        الوكيل المعتمد لشركة CARZILL الأمريكية في المملكة العربية السعودية
         المتخصصة في منتجات حماية وتظليل السيارات بخبرة لأكثر من 16 عام وضمان يصل
         حتى 10 سنوات. نقدم باستمرار أعلى مستويات الجودة والدقة في تنفيذ خدماتنا
         بالتركيز علي أدق التفاصيل.

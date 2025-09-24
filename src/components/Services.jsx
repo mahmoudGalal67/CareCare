@@ -23,7 +23,7 @@ function Services() {
   return (
     <div className="services mt-2 w-full">
       <div className=" bg-main border-[3px] border-border rounded-[8px] text-center mx-[8]">
-        <h1>خدمات جونسون لحماية السيارات</h1>
+        <h1>خدمات CARZILL لحماية السيارات</h1>
       </div>
       <div className="wrapper grid lg:grid-cols-3 grid-cols-1 gap-8 mt-[28px]">
         {servicesItems.map((item, i) => (
