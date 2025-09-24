@@ -4,7 +4,7 @@ import React from "react";
 function Feature2() {
   return (
     <div className="feature">
-      <div className="wrapper overflow-hidden relative flex lg:flex-row flex-col-reverse items-center gap-8 p-[32px] border-[3px] border-white my-[30px] bg-[#191919] rounded-[20px] ">
+      <div className="wrapper overflow-hidden relative flex lg:flex-row flex-col-reverse items-center gap-8 p-[32px] border-[3px] border-border my-[30px] bg-[#191919] rounded-[20px] ">
         <div className="right lg:flex-1 text-white relative z-[10]">
           <h3 className="text-[25px] font-bold mb-[30px] leading-[1.5]">
             {" "}
@@ -44,7 +44,7 @@ function Feature2() {
         </div>
         <div className="shine-overlay"></div>
       </div>
-      <div className=" bg-main border-[3px] border-[#FFFFFFB8] rounded-[8px] text-center mx-[8]">
+      <div className=" bg-main border-[3px] border-border rounded-[8px] text-center mx-[8]">
         <h1> احجز الآن</h1>
       </div>
     </div>

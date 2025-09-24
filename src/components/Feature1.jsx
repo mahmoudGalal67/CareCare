@@ -4,7 +4,7 @@ import React from "react";
 function Feature1() {
   return (
     <div className="feature">
-      <div className="wrapper overflow-hidden relative flex lg:flex-row flex-col-reverse items-center gap-8 p-[32px] border-[3px] border-white my-[30px] rounded-[20px] ">
+      <div className="wrapper overflow-hidden relative flex lg:flex-row flex-col-reverse items-center gap-8 p-[32px] border-[3px] border-border my-[30px] rounded-[20px] ">
         <div className="right lg:flex-1 text-white relative z-[10]">
           <h3 className="text-[25px] font-bold mb-[30px] leading-[1.5]">
             {" "}

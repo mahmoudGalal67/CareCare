@@ -63,7 +63,7 @@ function Counter() {
         </svg>
         <span>لحق عروض اليوم الوطني</span>
       </a>
-      <div className=" bg-main border-[3px] border-[#FFFFFFB8] rounded-[8px] text-center mx-[8]">
+      <div className=" bg-main border-[3px] border-border rounded-[8px] text-center mx-[8]">
         <h1>حافظ على مظهر سيارتك جديد</h1>
       </div>
     </div>

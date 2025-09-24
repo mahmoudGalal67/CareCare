@@ -14,7 +14,7 @@ const brands = [
 function Brands() {
   return (
     <div className="brands">
-      <div className="wrapper py-[50px] px-[60px] border-[3px] border-white my-[30px] bg-brand rounded-[20px]">
+      <div className="wrapper py-[50px] px-[60px] border-[3px] border-border my-[30px] bg-brand rounded-[20px]">
         <h3 className="text-[34px] text-white font-bold text-center mb-[28px]">
           {" "}
           معتمد من
@@ -52,7 +52,7 @@ function Brands() {
           ))}
         </Swiper>
       </div>
-      <div className=" bg-main border-[3px] border-[#FFFFFFB8] rounded-[8px] text-center mx-[8] my-[12px]">
+      <div className=" bg-main border-[3px] border-border rounded-[8px] text-center mx-[8] my-[12px]">
         <h1> ظلل سيارتك ولا تعاني بحرارة الشمس</h1>
       </div>
     </div>

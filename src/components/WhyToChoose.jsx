@@ -31,7 +31,7 @@ const features = [
 function WhyToChoose() {
   return (
     <div className="whyChoose">
-      <div className=" bg-main border-[3px] border-[#FFFFFFB8] rounded-[8px] text-center mx-[8] my-[5]">
+      <div className=" bg-main border-[3px] border-border rounded-[8px] text-center mx-[8] my-[5]">
         <h1>خدمات جونسون لحماية السيارات</h1>
       </div>
       <p className="text-[18px] font-bold leading-[40px] text-white text-justify mt-5">

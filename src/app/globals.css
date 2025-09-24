@@ -13,6 +13,7 @@ body {
   --color-main: #6f090f;
   --color-brand: #320707ea;
   --color-overlay: #320707b2;
+  --color-border: #f20504;
 }
 .trest {
   --color-brand: #320707f3;
