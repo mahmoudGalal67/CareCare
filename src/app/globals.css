@@ -10,10 +10,14 @@ body {
 }
 
 @theme {
-  --color-main: #07201b;
-  --color-brand: #0d1f1a;
+  --color-main: #6f090f;
+  --color-brand: #320707ea;
+  --color-overlay: #320707b2;
 }
-
+.trest {
+  --color-brand: #320707f3;
+  background-color: #320707b2;
+}
 .swiper-button-next svg,
 .swiper-button-prev svg {
   color: white;
@@ -83,12 +87,12 @@ h1 {
   content: "";
   position: absolute;
   inset: 0;
-  background: rgba(7, 32, 27, 0.6);
+  background: var(--color-overlay);
   transition: background 0.4s ease;
   border-radius: 20px;
 }
 .whyChoose .card:hover:before {
-  background: rgba(7, 32, 27, 0.92);
+  background: var(--color-brand);
 }
 .whyChoose .card:hover {
   transform: scale(1.03);
@@ -107,6 +111,11 @@ h1 {
     transform: translateX(-50%);
   }
 }
+
+.feature .wrapper {
+  background: linear-gradient(360deg, #000000, #330000, #660000, #990000);
+}
+
 .tint-overlay {
   inset: 0; /* shorthand for top/right/bottom/left: 0 */
   width: auto;

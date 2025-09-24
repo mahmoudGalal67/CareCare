@@ -35,7 +35,7 @@ function Services() {
               <h3 className="text-[22px]">{item.title}</h3>
               <p className="text-[14px]">{item.desc}</p>
             </div>
-            <div className="hover_elm absolute top-0 -left-[100%] w-[100%] h-[100%] bg-[#07201bcc] transition-all duration-[.3]"></div>
+            <div className="hover_elm absolute top-0 -left-[100%] w-[100%] h-[100%] bg-overlay transition-all duration-[.3]"></div>
           </div>
         ))}
       </div>
@@ -43,7 +43,7 @@ function Services() {
         <div className="flex justify-center items-center gap-[25px] flex-wrap my-[30px]">
           <a
             href="tel:0549956052"
-            className="btn-box bg-[#022f6c] md:w-[180px] w-[140px] h-[60px] flex justify-center items-center md:gap-[12px] gap-[8px] text-white font-bold lg:text-[18px] text-[15px]  rounded-[30px]"
+            className="btn-box bg-main md:w-[180px] w-[140px] h-[60px] flex justify-center items-center md:gap-[12px] gap-[8px] text-white font-bold lg:text-[18px] text-[15px]  rounded-[30px]"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"

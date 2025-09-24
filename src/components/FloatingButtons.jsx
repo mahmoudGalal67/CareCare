@@ -2,9 +2,9 @@ import React from "react";
 
 function FloatingButtons() {
   return (
-    <div class="floating-buttons">
+    <div className="floating-buttons">
       <a
-        class="whatsapp"
+        className="whatsapp"
         href="https://api.whatsapp.com/send/?phone=%2B966549956052&amp;text=%D8%B9%D8%B1%D9%88%D8%B6%20%D8%AC%D9%88%D9%86%D8%B3%D9%88%D9%86%20%D9%84%D9%84%D9%8A%D9%88%D9%85%20%D8%A7%D9%84%D9%88%D8%B7%D9%86%D9%8A&amp;type=phone_number&amp;app_absent=0"
         target="_blank"
         title="راسلنا واتساب"
@@ -20,7 +20,7 @@ function FloatingButtons() {
         </svg>
       </a>
 
-      <a class="call" href="tel:549956052" title="اتصل بنا">
+      <a className="call" href="tel:549956052" title="اتصل بنا">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 640 640"

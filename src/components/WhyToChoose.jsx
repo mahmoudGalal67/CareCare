@@ -67,7 +67,7 @@ function WhyToChoose() {
         <div className="flex justify-center items-center gap-[25px] flex-wrap my-[30px]">
           <a
             href="tel:0549956052"
-            className="btn-box bg-[#022f6c] md:w-[180px] w-[140px] h-[60px] flex justify-center items-center md:gap-[12px] gap-[8px] text-white font-bold lg:text-[18px] text-[15px]  rounded-[30px]"
+            className="btn-box bg-main md:w-[180px] w-[140px] h-[60px] flex justify-center items-center md:gap-[12px] gap-[8px] text-white font-bold lg:text-[18px] text-[15px]  rounded-[30px]"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
