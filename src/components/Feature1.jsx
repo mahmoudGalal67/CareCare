@@ -35,12 +35,19 @@ function Feature1() {
           </ul>
         </div>
         <div className="left lg:flex-1 relative lg:h-[330px] h-[200px] w-full z-[10]">
-          <Image
-            src="/feature1.webp"
-            className="rounded-[12px]"
-            alt="feature car"
-            fill
-          />
+          <a
+            href="https://wa.me/966543272134?text=هلا ومرحبا احتاج تفاصيل عن عروض اليوم الوطني ✨"
+            target="_blank"
+            rel="noopener noreferrer"
+            title="هلا ومرحبا احتاج تفاصيل عن عروض اليوم الوطني ✨"
+          >
+            <Image
+              src="/feature1.webp"
+              className="rounded-[12px]"
+              alt="feature car"
+              fill
+            />
+          </a>
         </div>
         <div className="tint-overlay"></div>
       </div>

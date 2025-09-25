@@ -35,14 +35,21 @@ function Services() {
               <h3 className="text-[22px]">{item.title}</h3>
               <p className="text-[14px]">{item.desc}</p>
             </div>
-            <div className="hover_elm absolute top-0 -left-[100%] w-[100%] h-[100%] bg-overlay transition-all duration-[.3]"></div>
+            <a
+              href="https://wa.me/966543272134?text=هلا ومرحبا احتاج تفاصيل عن عروض اليوم الوطني ✨"
+              target="_blank"
+              rel="noopener noreferrer"
+              title="هلا ومرحبا احتاج تفاصيل عن عروض اليوم الوطني ✨"
+            >
+              <div className="hover_elm absolute top-0 -left-[100%] w-[100%] h-[100%] bg-overlay transition-all duration-[.3]"></div>
+            </a>
           </div>
         ))}
       </div>
       <div className="action-box style3">
         <div className="flex justify-center items-center gap-[25px] flex-wrap my-[30px]">
           <a
-            href="tel:0549956052"
+            href="tel:966543272134"
             className="btn-box bg-main md:w-[180px] w-[140px] h-[60px] flex justify-center items-center md:gap-[12px] gap-[8px] text-white font-bold lg:text-[18px] text-[15px]  rounded-[30px]"
           >
             <svg
@@ -57,9 +64,11 @@ function Services() {
             <span>اتصل بنا</span>
           </a>
           <a
-            href="https://api.whatsapp.com/send/?phone=%2B966549956052&amp;text=%D8%B9%D8%B1%D9%88%D8%B6%20%D8%AC%D9%88%D9%86%D8%B3%D9%88%D9%86%20%D9%84%D9%84%D9%8A%D9%88%D9%85%20%D8%A7%D9%84%D9%88%D8%B7%D9%86%D9%8A&amp;type=phone_number&amp;app_absent=0"
             className="btn-box bg-[#25d366] md:w-[180px] w-[140px] h-[60px] flex justify-center items-center md:gap-[12px] gap-[8px] text-white font-bold lg:text-[18px] text-[15px] rounded-[30px]"
+            href="https://wa.me/966543272134?text=هلا ومرحبا احتاج تفاصيل عن عروض اليوم الوطني ✨"
             target="_blank"
+            rel="noopener noreferrer"
+            title="هلا ومرحبا احتاج تفاصيل عن عروض اليوم الوطني ✨"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
